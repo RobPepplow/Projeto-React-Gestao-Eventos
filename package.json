@@ -1,8 +1,12 @@
 {
-  "name": "frontend",
-  "private": true,
-  "version": "0.0.0",
+  "name": "frontend-Gestão-Eventos",  
+  "version": "0.0.1",
   "type": "module",
+  "description": "Meu Projeto-Adm-eventos React com Vite",
+  "main": "index.js",
+  "keywords": ["react", "vite"],
+  "author": "Robson Pepplow Lopes",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
