@@ -1,0 +1,48 @@
+.container-form{
+    display: grid;
+    justify-content: center;
+}
+
+form {
+    display: grid;        
+    width: 100%;
+    /* background-color: rgb(129, 222, 222); */
+    padding: 50px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    margin-bottom: .5rem;
+}
+
+
+.form-control input {
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-control textarea {
+    padding: 2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-salvar{
+    font-weight: bold;
+    border: 1px solid rgb(75, 73, 73);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    opacity: 1;
+    font-size: 25px;
+    
+}
+
+.btn-salvar:hover{
+    background-color: rgb(188, 204, 204);
+
+}

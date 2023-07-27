@@ -1,0 +1,61 @@
+.container h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background-color: beige;
+    border-bottom: 5px solid #888;
+}
+
+.party {
+    display: flex;
+    flex-direction: column; 
+    border-bottom:  1px solid #777;
+    
+}
+.party h2 p {
+    margin: 10px;
+}
+.party h2 {
+    margin: 10px;
+}
+/* Aumetar Somente a Primeira Letra */
+.party h2::first-letter{
+    text-transform: uppercase;
+}
+
+.btn {    
+    max-width: 10%;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(75, 73, 73);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    opacity: 1;
+    margin: 20px;
+    font-size: 25px;
+    background-color: rgb(230, 236, 236);
+}
+
+.new-btn21 { 
+    font-weight: bold;
+    border: 1px solid rgb(75, 73, 73);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    opacity: 1;
+    
+    
+}
+
+.new-btn21:hover, .btn:hover {
+    background-color: rgb(188, 204, 204);
+}
+
+span {
+    display: flex;
+    justify-items: center;
+}
+
+hr {
+    margin: 25px;
+}
+
